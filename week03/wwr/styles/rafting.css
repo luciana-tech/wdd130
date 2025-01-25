@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #3D348B
-    --secondary-color: #87BFFF
-    --accent1-color: #ACFCD9
-    --accent2-color: #D8BFAA
+    --primary-color: #3D348B;
+    --secondary-color: #87BFFF;
+    --accent1-color: #ACFCD9;
+    --accent2-color: #D8BFAA;
     
-    --heading-font: "Roboto"
-    --paragraph-font: "Montserrat" 
+    --heading-font: "Roboto";
+    --paragraph-font: "Montserrat"; 
 }
 
 body {
