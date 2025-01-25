@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #3D348B
+    --secondary-color: #87BFFF
+    --accent1-color: #ACFCD9
+    --accent2-color: #D8BFAA
+    
+    --heading-font: "Roboto"
+    --paragraph-font: "Montserrat" 
+}
+
+body {
+font-family: var(--paragraph-font);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(heading-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+}
+.hero>img {
+    width: 100%;
+}
+.hero>h1 {
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff95;
+    color: var(--secondary-color);
+    padding: 1rem;
+    font-size: 2em;
+}
+.hero>article {
+    background-color: #ffffff61;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    right: 2rem;
+}
+.hero>article>img {
+    float: right;
+    margin: 2rem;
+    width: 13rem;
+}
+.hero>article>p {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    padding: 1.5rem;
+    font-weight: 400;
+}
+footer {
+    background-color: #3e3e3e;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 2rem;
+}
+.social {
+    grid-column: 3;
+    justify-self: end;
+}
+.social>img {
+    width: 3em;
+}
