@@ -1,6 +1,6 @@
 :root {
     --primary-color: #3D348B;
-    --secondary-color: #87BFFF;
+    --secondary-color: #052c59;
     --accent1-color: #ACFCD9;
     --accent2-color: #D8BFAA;
     
@@ -41,7 +41,7 @@ header, main, footer {
     font-size: 2em;
 }
 .hero>article {
-    background-color: #ffffff61;
+    background-color: #ffffff80;
     position: absolute;
     top: 15rem;
     left: 2rem;
