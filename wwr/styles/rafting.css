@@ -23,6 +23,37 @@ header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+header {
+    
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background:  #3e3e3e;
+nav {
+    display: flex;
+    justify-content: space-around; 
+}
+nav a {
+    padding: 1em;
+    color: #D8BFAA;
+    font-family: var(--heading-font);
+}
+nav a:hover {
+    background-color:#fff;
+    color: #3D348B;
+
+}
+
+}    
+
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+
 
 .hero {
     position: relative;
@@ -58,6 +89,13 @@ header, main, footer {
     padding: 1.5rem;
     font-weight: 400;
 }
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    margin: 50px 0; 
+}
+
 footer {
     background-color: #3e3e3e;
     color: #fff;
