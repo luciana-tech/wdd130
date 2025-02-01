@@ -95,7 +95,10 @@ nav a:hover {
     gap: 2em;
     margin: 50px 0; 
 }
-
+.history-img {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
 footer {
     background-color: #3e3e3e;
     color: #fff;
