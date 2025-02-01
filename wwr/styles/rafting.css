@@ -29,6 +29,7 @@ header {
     grid-template-columns: 150px auto;
     align-items: center;
     background:  #3e3e3e;
+}
 nav {
     display: flex;
     justify-content: space-around; 
@@ -43,10 +44,6 @@ nav a:hover {
     color: #3D348B;
 
 }
-
-}    
-
-
 .logo img {
 	margin: 0 0.25rem 0 1rem;
 	width: 64px;
@@ -95,10 +92,32 @@ nav a:hover {
     gap: 2em;
     margin: 50px 0; 
 }
+.history h2,
+.adventures h2 {
+    grid-column: 1 / -1;
+    justify-items: center;
+    padding: 1em 0;
+}
+.adventures {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+.adventures>img {
+    max-width: 100%;
+}
+figcaption {
+    text-align: center;
+    padding: 1em 0;
+}
+
 .history-img {
     grid-column: 2 / 3;
     grid-row: 2;
 }
+
 footer {
     background-color: #3e3e3e;
     color: #fff;
