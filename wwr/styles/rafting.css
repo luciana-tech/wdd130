@@ -64,7 +64,8 @@ nav a:hover {
     background-color: #ffffff95;
     color: var(--secondary-color);
     padding: 1rem;
-    font-size: 2em;
+    font-size: 2.5em;
+    text-align: center;
 }
 .hero>article {
     background-color: #ffffff80;
@@ -198,9 +199,25 @@ button {
     grid-row: 2 / 3;
 }
 
-
 .employees figcaption {
     width: 150px;
+}
+.ride h2 {
+    text-align: left;
+    font-size: 2.5rem;
+}
+.ride article {
+    font-size: 1.8rem;
+    text-align: left;
+
+}
+
+.ride article>img {
+    float: right;
+    margin: 2rem;
+    height: 450px;
+    margin-right: auto;
+    margin-top: auto;
 }
 footer {
     background-color: #3e3e3e;
