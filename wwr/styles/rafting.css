@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -170,7 +174,7 @@ button {
 }
 
 .address {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 
 .employees {
@@ -185,6 +189,7 @@ button {
 .employees h1:nth-child(1){
     grid-column: 1 / 4;
     grid-row: 1/2;
+    font-size: 2rem;
 }
 
 .employees figure:nth-child(2){
