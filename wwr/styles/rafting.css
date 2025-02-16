@@ -219,6 +219,23 @@ button {
     margin-right: auto;
     margin-top: auto;
 }
+.deals h2 {
+    font-size: 2rem;
+    grid-column: 1 / 4;
+    justify-items: center;
+    padding: 1em 0; 
+}
+.deals {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25em;
+    justify-items: center;
+}
+.deals img {
+    width: 100%;
+    height: auto;
+}
 footer {
     background-color: #3e3e3e;
     color: #fff;
