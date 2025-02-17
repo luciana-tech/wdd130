@@ -272,6 +272,6 @@ footer {
 
 footer a {
     padding: 1em;
-    color: #D8BFAA
+    color: #D8BFAA;
     font-family: var(--heading-font);
 }
