@@ -43,6 +43,7 @@ nav {
     justify-content: space-around; 
 }
 nav a {
+    font-weight:bold;
     padding: 1em;
     color: #D8BFAA;
     font-family: var(--heading-font);
@@ -271,11 +272,6 @@ footer {
 
 footer a {
     padding: 1em;
-    color: #f3efeb;
+    color: #D8BFAA
     font-family: var(--heading-font);
-}
-footer a:hover {
-    
-    color: #d3d3d9;
-
 }
