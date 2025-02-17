@@ -27,6 +27,10 @@ header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
 header {
     
     display: grid;
@@ -53,7 +57,9 @@ nav a:hover {
 	width: 64px;
 	height: auto;
 }
-
+#offers{
+border-spacing: 40px 30px;
+}
 .hero {
     position: relative;
 }
