@@ -237,8 +237,12 @@ button {
     margin: 50px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.25em;
+    gap: 0.35em;
     justify-items: center;
+}
+.deals p {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .deals img {
     width: 100%;
