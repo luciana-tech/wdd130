@@ -61,6 +61,13 @@ nav a:hover {
 #offers{
 border-spacing: 40px 30px;
 }
+
+#offers td{
+    width: 350px;
+    text-align: center;
+
+}
+
 .hero {
     position: relative;
 }
